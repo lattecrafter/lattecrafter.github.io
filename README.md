@@ -1,69 +1,26 @@
-# Astro & Tailwind CSS Starter Kit by lexingtonthemes.com
-# License
+# Lattecrafter
 
-This template is open-source software licensed under the [GPL-3.0 license](https://opensource.org/licenses/GPL-3.0). Feel free to fork, modify, and use it in your projects.# License
+Lattecrafter is a blog dedicated to latte art, coffee, matcha, and other coffee shop style drinks.
 
-This template is open-source software licensed under the [GPL-3.0 license](https://opensource.org/licenses/GPL-3.0). Feel free to fork, modify, and use it in your projects.
+## Key Features
 
-## Need an attribution-free version?
+- **Photo Showcase**: Display beautiful photos of latte art and coffee creations.
+- **Recipes**: Share detailed recipes for various coffee and matcha drinks.
+- **Tutorials**: Provide step-by-step tutorials for creating latte art and other coffee shop style drinks.
 
-Checkout [Lexington Themes](https://lexingtonthemes.com/) for free and premium multipage themes & UI Kits
-For freelancers, developers, businesses, and personal use.
-Beautifully crafted with Astro.js, and Tailwind CSS — Simple & easy to customise.
+## Technologies Used
 
-## This template is using Tailwind CSS V4
+- **Astro**: A modern static site generator.
+- **Tailwind CSS**: A utility-first CSS framework for styling.
 
-Now we are using only a CSS file. It's called `global.css` and it's located in the src/styles folder. Now we are eimporting Tailwind CSS on the same file instead of using the `tailwind.config.cjs` file. Like this:
+## Installation
 
-```css
-// Importing Tailwind CSS
-@import "tailwindcss";
-// Importing Tailwind plugins
-@plugin "@tailwindcss/typography";
-@plugin "@tailwindcss/forms";
-```
+(Not relevant)
 
-Then to add your styles you will use the @theme directive. Like this:
+## Usage
 
-```css
-@theme {
-  /* Your CSS goes here, see how styles are written on the global.css file */
-}
-```
+(Not relevant)
 
-Remember this is just in Alpha version, so you can use it as you want. Just keep an eye on the changes that Tailwind CSS is going to make.
-## Template Structure
+## License
 
-Inside of your Astro project, you'll see the following folders and files:
-
-```
-/
-├── public/
-├── src/
-│   └── pages/
-│       └── index.astro
-└── package.json
-```
-
-Astro looks for `.astro` or `.md` files in the `src/pages/` directory. Each page is exposed as a route based on its file name.
-
-There's nothing special about `src/components/`, but that's where we like to put any Astro/React/Vue/Svelte/Preact components.
-
-Any static assets, like images, can be placed in the `public/` directory.
-
-## Commands
-
-All commands are run from the root of the project, from a terminal:
-
-| Command                | Action                                           |
-| :--------------------- | :----------------------------------------------- |
-| `npm install`          | Installs dependencies                            |
-| `npm run dev`          | Starts local dev server at `localhost:3000`      |
-| `npm run build`        | Build your production site to `./dist/`          |
-| `npm run preview`      | Preview your build locally, before deploying     |
-| `npm run astro ...`    | Run CLI commands like `astro add`, `astro check` |
-| `npm run astro --help` | Get help using the Astro CLI                     |
-
-## Want to learn more?
-
-Feel free to check Astros [documentation](https://docs.astro.build)
+This project is licensed under the GNU General Public License v3.0. You can find the full license text [here](https://www.gnu.org/licenses/gpl-3.0.en.html).
