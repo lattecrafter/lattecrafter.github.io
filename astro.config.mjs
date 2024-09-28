@@ -20,6 +20,6 @@ export default defineConfig({
     skipInline: false,
     drafts: true
   },
-  site: 'https://lexingtonthemes.com',
+  site: 'lattecrafter.github.io',
   integrations: [sitemap(), mdx()]
 });
