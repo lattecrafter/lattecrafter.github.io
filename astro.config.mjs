@@ -20,6 +20,6 @@ export default defineConfig({
     skipInline: false,
     drafts: true
   },
-  site: 'lattecrafter.github.io',
+  site: 'https://lattecrafter.github.io',
   integrations: [sitemap(), mdx()]
 });
