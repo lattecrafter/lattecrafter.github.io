@@ -11,6 +11,8 @@ const { title, url, description, pubDate, author, image, tags } = Astro.props;
           class="aspect-[2/3] object-cover bg-center h-full w-full"
           src={image}
           alt={title}
+          width="480"
+          loading="lazy"
         />
       </div>
       <div
